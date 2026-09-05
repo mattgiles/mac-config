@@ -1,0 +1,24 @@
+{
+  "packages": [
+    "npm:@mgiles/perk@3.2.0",
+    "npm:@tombell/pi-diff",
+    "npm:pi-subagents",
+    "npm:@ff-labs/pi-fff",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    {
+      "source": "npm:@dietrichgebert/ponytail",
+      "extensions": [],
+      "skills": [],
+      "prompts": [],
+      "themes": []
+    },
+    {
+      "source": "npm:pi-web-access"
+    }
+  ],
+  "subagents": {
+    "disableBuiltins": true
+  },
+  "tuiMode": "fullscreen"
+}

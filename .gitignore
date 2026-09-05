@@ -1,0 +1,16 @@
+# BEGIN perk managed
+/.pi/npm/
+/.pi/git/
+/.perk/local.toml
+/.worktrees/
+/.perk/workflow/
+/.pi-subagents/
+# END perk managed
+
+# BEGIN skills managed runtime artifacts
+/.agents/state.yaml
+/.agents/local.yaml
+/.agents/skills/
+/.claude/skills/
+/.agents/cache/
+# END skills managed runtime artifacts
